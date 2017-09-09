@@ -5,9 +5,11 @@ A web application to store a config tree to be retreived in json or .properties 
 Made for colaborative editing, where a developer can set up the keys used in an application, and a translator
 or product owner can fill in the values to be used.
 
----
+Using grails v. 3.3.0 and angular (w ng)  4.0.1.
+
+----
 grails create-app --profile=angular keyTree
-| Application created at /Users/david/Projects/keyTree/keyTree
+| Application created at keyTree
 |
 This profile has created a multi-project build where the "server" module contains the Grails application and the "client" module contains the Angular 2 application.
 
@@ -15,5 +17,5 @@ To start the Grails application separately, execute "./gradlew server:bootRun"
 To start the client side application separately, execute "./gradlew client:bootRun"
 
 To start both the client and server applications simultaneously, execute "./gradlew bootRun --parallel"
----
+----
 
