@@ -1,6 +1,6 @@
-import {Component} from '@angular/core';
-import {NavService} from './nav.service';
-import {OnInit} from '@angular/core';
+import { Component }  from '@angular/core';
+import { NavService } from './nav.service';
+import { OnInit }     from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
