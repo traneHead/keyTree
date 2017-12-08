@@ -8,10 +8,11 @@ class Project {
   String name
   String description
 
-  List<KeyNode> keyNodes
+  static hasMany = [keyNodes: KeyNode]
 
   static constraints = {
-    keyNodes nullable: true
+    name nullable: false
+    keyNodes nullable: false
     description nullable: true
   }
 
