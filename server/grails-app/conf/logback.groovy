@@ -35,4 +35,4 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
 }
 
 logger('keytree', TRACE, ['STDOUT'], false)
-root(ERROR, ['STDOUT'])
+root(WARN, ['STDOUT'])
